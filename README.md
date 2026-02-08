@@ -110,13 +110,13 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-import nanvariancewd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanvariancewd@esm/index.mjs';
+import nanvariancewd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanvariancewd@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanvariancewd@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanvariancewd@v0.1.1-esm/index.mjs';
 ```
 
 #### nanvariancewd( N, correction, x, strideX )
@@ -215,7 +215,7 @@ var v = nanvariancewd.ndarray( 5, 1, x, 2, 1 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import nanvariancewd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanvariancewd@esm/index.mjs';
+import nanvariancewd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanvariancewd@v0.1.1-esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 
 function rand() {
